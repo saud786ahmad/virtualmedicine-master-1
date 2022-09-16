@@ -11,6 +11,7 @@
 	<groupId>com.stackroute</groupId>
 	<artifactId>virtualmedicine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>virtualmedicine</name>
 	<description>Virtual Medicine</description>
 	<packaging>pom</packaging>
