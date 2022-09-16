@@ -1,4 +1,4 @@
 FROM openjdk:11-jre-slim
-ADD ./target/authentication-service-0.0.1-SNAPSHOT.jar /usr/src/authentication-service-0.0.1-SNAPSHOT.jar
+ADD ./target/authentication-service-0.0.1-SNAPSHOT.war /usr/src/authentication-service-0.0.1-SNAPSHOT.war
 WORKDIR usr/src
-ENTRYPOINT ["java","-jar", "authentication-service-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-war", "authentication-service-0.0.1-SNAPSHOT.war"]
